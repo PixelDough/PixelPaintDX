@@ -1,5 +1,7 @@
+//fade in
+instance_create_depth(0, 0, -500, obj_fade_in);
 //Music for room starting
 if room == swatter {
-	audio_play_sound(snd_GnatAttack1, 100, true);
+	music(snd_GnatAttack1);
 	bug_count = 100;
 }

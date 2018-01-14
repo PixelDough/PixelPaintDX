@@ -9,4 +9,7 @@ if _click and sprite_index == spr_swatter_SMP {
 	audio_play_sound(snd_Swing, 90, false);
 }
 
-if keyboard_check_pressed(vk_escape) game_end();
+//if sprite_index == spr_swatter_SMP {
+//	x += mouse_x - x_last;
+//	y += mouse_y - y_last;
+//}

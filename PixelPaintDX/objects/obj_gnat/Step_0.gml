@@ -1,15 +1,9 @@
 if ACTION != gnat.die {
-	if x+hspeed < 0 or x+hspeed > 256 or y+vspeed < 0 or y+vspeed > 224 {
+	var _cam_w = camera_get_view_width(view_camera);
+	var _cam_h = camera_get_view_height(view_camera);
+	if x+hspeed < 0 or x+hspeed > _cam_w or y+vspeed < 0 or y+vspeed > _cam_h {
 		direction = point_direction(x, y, mouse_x, mouse_y);
 	}
-}
-
-if mouse_check_button_pressed(mb_left) and place_meeting(x, y, obj_swatter) and ACTION != gnat.die {
-	ACTION = gnat.die;
-	audio_play_sound(snd_BugDie1, 90, false);
-	control.bug_count -= 1;
-	image_index = 0;
-	image_yscale = -1;
 }
 
 event_user(ACTION);
