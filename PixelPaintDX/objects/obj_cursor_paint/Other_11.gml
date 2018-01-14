@@ -1,4 +1,4 @@
-/// @description Small Tool
+/// @description Medium Tool
 
 if mouse_check_button(mb_left) {
 	surface_set_target(global.canvas);

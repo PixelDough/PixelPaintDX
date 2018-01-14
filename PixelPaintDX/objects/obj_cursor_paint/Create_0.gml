@@ -6,12 +6,14 @@ brush_color = c_red;
 brush_size = 2;
 
 enum tool {
-	cursor,
 	small,
 	medium,
 	large,
 	paintbrush,
-	bucket
+	bucket,
+	bubble
 }
+
+drawing = false;
 
 ACTION = tool.small;

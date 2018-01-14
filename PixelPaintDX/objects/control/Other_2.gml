@@ -5,3 +5,4 @@ global.font1 = font_add_sprite_ext(spr_font, "!\"#$%&'()*+,-./0123456789:;<=>?@A
 draw_set_font(global.font1);
 
 global.canvas = surface_create(392, 179);
+global.canvas_last = surface_create(392, 179);
