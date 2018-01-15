@@ -2,7 +2,8 @@
 // Inherit the parent event
 event_inherited();
 
-brush_color = c_red;
+color_sel = 0;
+brush_color = color_sel;
 brush_size = 2;
 
 enum tool {
@@ -11,7 +12,9 @@ enum tool {
 	large,
 	paintbrush,
 	bucket,
-	bubble
+	bubble,
+	spray,
+	eraser
 }
 
 drawing = false;
