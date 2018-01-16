@@ -571,6 +571,25 @@
             }
         },
         {
+            "Key": "653cf617-aad0-4a35-a2ea-3ff5587dafb6",
+            "Value": {
+                "id": "29d89688-2e12-4540-97ad-a1c464032610",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_toolbox_sticker\/spr_toolbox_sticker.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "69145310-e9fb-4850-9a86-6271cab62eeb",
             "Value": {
                 "id": "75a556ec-50c8-4ad6-bca4-423babc2a01f",

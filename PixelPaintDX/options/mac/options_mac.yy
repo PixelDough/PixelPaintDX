@@ -9,7 +9,7 @@
     "option_mac_app_category": "None",
     "option_mac_app_id": "PixelPaintDX",
     "option_mac_build_app_store": false,
-    "option_mac_copyright": "(c) 2017 PixelDough",
+    "option_mac_copyright": "(c) 2018 PixelDough",
     "option_mac_display_cursor": false,
     "option_mac_display_name": "PixelPaintDX",
     "option_mac_enable_steam": false,
