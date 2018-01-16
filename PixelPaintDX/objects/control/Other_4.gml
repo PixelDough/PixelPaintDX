@@ -11,3 +11,6 @@ if room == swatter {
 }
 
 window_mouse_set(window_get_width()/2, window_get_height()/2);
+
+if !surface_exists(global.canvas) global.canvas = surface_create(392, 179);
+if !surface_exists(global.canvas_last) global.canvas_last = surface_create(392, 179);
