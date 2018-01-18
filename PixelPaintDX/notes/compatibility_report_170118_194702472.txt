@@ -1,0 +1,18 @@
+Converting GML script: ${project_dir}\scripts\sprite_getpixel\sprite_getpixel.gml
+Converted description /// @description  sprite_getpixel(sprite, subimg, x, y);/// @function  sprite_getpixel
+/// @param sprite
+/// @param  subimg
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\sprite_pragma\sprite_pragma.gml
+Converted description /// @description  sprite_pragma()/// @function  sprite_pragma
+
+Converting GML script: ${project_dir}\scripts\sprite_data_begin\sprite_data_begin.gml
+Converted description /// @description  sprite_data_begin()/// @function  sprite_data_begin
+
+Converting GML script: ${project_dir}\scripts\sprite_data_end\sprite_data_end.gml
+Converted description /// @description  sprite_data_end()/// @function  sprite_data_end
+
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'

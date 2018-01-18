@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1492c249-970f-4167-b31b-1bfc908772a6",
+            "Value": {
+                "id": "b72d65c4-733d-4e75-95d4-cb1bc17b5a78",
+                "resourcePath": "notes\\compatibility_report_170118_194702472.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "1516ef35-afdc-4b20-8005-2d81896ff7b8",
             "Value": {
                 "id": "bfefd14e-3c5c-41ea-b98f-65314ffd6da5",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "79b4b729-b639-4eb7-9670-ca0eaa5c5a16",
+            "Value": {
+                "id": "4380d81c-e659-4a7b-a05f-900527101aeb",
+                "resourcePath": "sprites\\spr_stickers\\spr_stickers.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "817b9d55-7706-448a-8090-f6368bf53ac2",
             "Value": {
                 "id": "7f14ae9b-99ad-4f65-89a2-8289f273ab66",
@@ -388,6 +404,14 @@
                 "id": "73c62e27-9989-45bc-84d1-fb814de30ad3",
                 "resourcePath": "views\/94762803-6f5a-410c-bea8-8fa516f5414b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "975c473c-60f6-404a-a74d-e3112b99dee7",
+            "Value": {
+                "id": "c1f35ca6-2a56-4636-a82c-1f5486b52385",
+                "resourcePath": "scripts\\buffer_getpixel_begin\\buffer_getpixel_begin.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -527,6 +551,14 @@
             }
         },
         {
+            "Key": "cbc579ba-b4a5-4872-9acc-3d60155432b0",
+            "Value": {
+                "id": "136df858-e36b-434a-ae5e-09a6af0264c7",
+                "resourcePath": "scripts\\buffer_getpixel\\buffer_getpixel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "d052aa19-7df2-4454-80da-1dc24d79cedc",
@@ -623,6 +655,14 @@
             }
         },
         {
+            "Key": "e7a790a2-173c-4331-b035-8edac044b98b",
+            "Value": {
+                "id": "a2c3c452-32bc-412d-bb1f-b991506e6b52",
+                "resourcePath": "extensions\\sprite_getpixel_Sprite_Data_\\sprite_getpixel_Sprite_Data_.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "e9b70628-a152-4dfa-84e4-46cd659dadb6",
             "Value": {
                 "id": "3f6ab615-2c91-49c8-9785-53cca9341b50",
@@ -677,7 +717,9 @@
         "bdd8051e-908f-4914-959d-56eba38bcd3c",
         "844a9fef-02eb-4354-9c43-5923c291471f",
         "f44d6847-bf3d-4a17-8203-02145e7ba264",
-        "4c7fd479-a2ac-421b-96e9-580da67afaa2"
+        "4c7fd479-a2ac-421b-96e9-580da67afaa2",
+        "975c473c-60f6-404a-a74d-e3112b99dee7",
+        "cbc579ba-b4a5-4872-9acc-3d60155432b0"
     ],
     "tutorial": ""
 }

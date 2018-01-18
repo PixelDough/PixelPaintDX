@@ -6,3 +6,5 @@ draw_set_font(global.font1);
 
 global.canvas = surface_create(392, 179);
 global.canvas_last = surface_create(392, 179);
+new_canvas(global.canvas);
+new_canvas(global.canvas_last);
