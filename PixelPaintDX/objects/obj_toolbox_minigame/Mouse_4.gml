@@ -1,1 +1,1 @@
-room_change(swatter);
+room_change(guide);
