@@ -4,6 +4,7 @@ if mouse_check_button_pressed(mb_right) {
 	if room == title game_end();
 	if room == paint room_change(title);
 	if room == swatter room_change(paint);
+	if room == catch room_change(paint);
 	if room == guide room_change(paint);
 }
 

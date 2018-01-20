@@ -8,6 +8,5 @@ if mouse_check_button(mb_left) {
 	var _yoff2 = random_range(-8, 8);
 	draw_point(mouse_x-4+_xoff1, mouse_y-20+_yoff1);
 	draw_point(mouse_x-4+_xoff2, mouse_y-20+_yoff2);
-	//draw_circle(mouse_x-4+_xoff, mouse_y-20+_xoff, 1, false);
 	surface_reset_target();
 }

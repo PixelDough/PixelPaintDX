@@ -1,1 +1,1 @@
-room_change(guide);
+room_change(catch);
