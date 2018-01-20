@@ -1939,6 +1939,25 @@
             }
         },
         {
+            "Key": "d99c5322-dc0e-4694-a62b-090dd0ecb363",
+            "Value": {
+                "id": "8c85bc7e-31ac-4483-b23d-c89b19e93bb3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_bombfly\/spr_bombfly.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "da17e2f1-6848-4850-ab9b-94da1043b52c",
             "Value": {
                 "id": "c000f0ba-727a-4eaa-9656-e8b165e9164a",
@@ -2126,6 +2145,25 @@
                 ],
                 "resourcePath": "sprites\/spr_wall\/spr_wall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb2aabb0-af90-4d40-ac04-2a317d0c74b9",
+            "Value": {
+                "id": "eeb3b89d-08e9-4d0e-ad6c-ed7224dac268",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_bombfly\/obj_bombfly.yy",
+                "resourceType": "GMObject"
             }
         },
         {

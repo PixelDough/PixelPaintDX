@@ -1,4 +1,4 @@
-direction = random(360);
+event_inherited();
 
 enum butterfly {
 	idle,
@@ -6,6 +6,8 @@ enum butterfly {
 }
 
 ACTION = butterfly.fly;
+
+points = 1;
 
 alarm[0] = random_range(120, 360);
 
