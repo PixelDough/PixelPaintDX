@@ -14,7 +14,3 @@ if place_meeting(x, y, obj_canvas) {
 		drawing = false;
 	}
 }
-
-
-if mouse_wheel_up() color_sel++;
-if mouse_wheel_down() color_sel--;

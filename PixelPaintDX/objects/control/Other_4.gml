@@ -2,8 +2,11 @@ if room == parent room = title;
 //fade in
 instance_create_depth(0, 0, -500, obj_fade_in);
 //Music for room starting
+if room == title {
+	music(snd_mus1)
+}
 if room == paint {
-	music(snd_BGM1);
+	//music(choose(snd_mus1, snd_mus2));
 }
 if room == swatter or room == catch {
 	music(snd_GnatAttack1);
