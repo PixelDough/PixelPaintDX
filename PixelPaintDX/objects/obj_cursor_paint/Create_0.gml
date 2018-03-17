@@ -6,6 +6,7 @@ color_sel = 0;
 brush_color = color_sel;
 pal_sel = 0;
 brush_size = 2;
+zoomed = false;
 
 enum tool {
 	small,
@@ -15,7 +16,9 @@ enum tool {
 	bucket,
 	bubble,
 	spray,
-	eraser
+	eraser,
+	zoom,
+	pixel
 }
 
 drawing = false;

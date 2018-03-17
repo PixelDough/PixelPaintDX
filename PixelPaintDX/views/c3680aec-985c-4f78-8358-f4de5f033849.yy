@@ -10,7 +10,10 @@
         "1e7f975c-1a88-4878-b6f2-3d99246d2e4e",
         "2fa72c72-f92f-4bfa-a8d3-95497e3c8725",
         "8f602f57-b4df-4c75-9d06-132c0801cd06",
-        "b8ead3f2-68c0-4027-b871-e65365b643af"
+        "b8ead3f2-68c0-4027-b871-e65365b643af",
+        "6ac10ba7-1d1c-4c90-8857-566c217c53e4",
+        "5a69585f-64c4-4523-9da1-2f9e4f422e32",
+        "f6ed787a-e5fb-4f61-b898-a39adf6f123c"
     ],
     "filterType": "GMObject",
     "folderName": "PaintToolbox",

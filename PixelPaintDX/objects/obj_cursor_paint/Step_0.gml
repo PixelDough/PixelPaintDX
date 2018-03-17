@@ -14,3 +14,5 @@ if place_meeting(x, y, obj_canvas) {
 		drawing = false;
 	}
 }
+
+//camera_set_view_pos(view_camera[1], x - camera_get_view_width(view_camera[1])/2, y - camera_get_view_width(view_camera[1])/2)
