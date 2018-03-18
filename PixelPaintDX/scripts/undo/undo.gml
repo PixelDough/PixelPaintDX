@@ -1,4 +1,4 @@
-var _swap_surface = surface_create(392, 179);
+var _swap_surface = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
 surface_copy(_swap_surface, 0, 0, global.canvas);
 
 new_canvas(global.canvas);

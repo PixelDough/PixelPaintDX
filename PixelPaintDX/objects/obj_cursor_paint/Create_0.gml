@@ -13,7 +13,7 @@ enum tool {
 	medium,
 	large,
 	paintbrush,
-	bucket,
+	sponge,
 	bubble,
 	spray,
 	eraser,

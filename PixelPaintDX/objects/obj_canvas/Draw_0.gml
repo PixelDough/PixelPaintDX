@@ -1,3 +1,3 @@
-draw_surface(global.canvas, 4, 20);
+draw_surface(global.canvas, 0, 0);
 
 draw_self();

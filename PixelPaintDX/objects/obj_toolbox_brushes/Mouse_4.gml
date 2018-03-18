@@ -1,1 +1,0 @@
-obj_cursor_paint.ACTION = floor((obj_cursor_paint.x - x) / 16);

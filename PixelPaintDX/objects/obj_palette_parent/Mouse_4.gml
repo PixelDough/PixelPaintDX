@@ -6,5 +6,7 @@ obj_cursor_paint.brush_color = colors[obj_cursor_paint.color_sel];
 audio_sound_pitch(snd, 1 + obj_cursor_paint.color_sel/10)
 sound(snd, true, false)
 
+obj_cursor_paint.pal_sel = obj_palette_selector.page;
+
 //buffer = buffer_getpixel_begin(application_surface);
 //obj_cursor_paint.brush_color = buffer_getpixel(buffer, (x+(obj_cursor_paint.color_sel * 16)+9), y+9, surface_get_width(application_surface), surface_get_height(application_surface));

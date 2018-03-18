@@ -1,2 +1,15 @@
-color0 = make_color_rgb(random(255), random(255), random(255))
-colors[0] = make_color_rgb(random_range(100,255), random_range(100,255), random_range(100,255))
+randomize();
+colors[0] = make_color_hsv(random(255) % 255,255,255);
+colors[1] = make_color_hsv((get_timer()/60) % 255,255,255);
+colors[2] = choose(c_red, c_white, c_blue);
+colors[3] = choose(hex($9effb8), hex($89aee1), hex($d46ce7), hex($e9f259), hex($7cf4d3));
+colors[4] = choose(hex($ffccaa), hex($29adff), hex($ff004d));
+colors[5] = choose(hex($b80000), hex($ff4000), hex($ffa700), hex($f8f9ac));
+colors[6] = choose(hex($b6dfe9), hex($2ea3f2), hex($0c71c3), hex($004a86), hex($004a86));
+colors[7] = choose(hex($28201e), hex($302521), hex($351b1e), hex($3f2a27), hex($49342f));
+colors[8] = choose(hex($ffffb0), hex($dbafff), hex($afd0ff), hex($aafff8), hex($ffffb0));
+colors[9] = choose(hex($ffd319), hex($ff901f), hex($ff2975), hex($f222ff), hex($8c1eff));
+colors[10] = choose(hex($0055ff), hex($00ff00), hex($00aa00), hex($ffffff));
+colors[11] = choose(hex($303030), hex($ffffff));
+colors[12] = choose(hex($aa5500), hex($ffaa00));
+colors[13] = choose(hex($98a3b1), hex($b2c6e1), hex($ffffff), hex($7d1a1a), hex($b64d4d), hex($e17979));

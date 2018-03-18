@@ -1,0 +1,1 @@
+obj_cursor_paint.ACTION = tool.medium;
