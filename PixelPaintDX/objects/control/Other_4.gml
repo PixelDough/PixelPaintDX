@@ -1,12 +1,21 @@
-if room == parent room = title;
-//fade in
-instance_create_depth(0, 0, -500, obj_fade_in);
+if room == parent {
+	audio_group_load(audiogroup_sounds)
+	audio_group_load(audiogroup_music_classical)
+	audio_group_load(audiogroup_music_electronic)
+	audio_group_load(audiogroup_music_happy)
+	audio_group_load(audiogroup_music_lounge)
+	audio_group_load(audiogroup_music_relaxing)
+	audio_group_load(audiogroup_music_disco)
+} else {
+	//fade in
+	instance_create_depth(0, 0, -500, obj_fade_in);
+}
 //Music for room starting
 if room == title {
-	music(snd_mus1)
+	music(mus_FasterDoesIt)
 }
 if room == paint {
-	//music(choose(snd_mus1, snd_mus2));
+	//music(choose(mus_FasterDoesIt, mus_PeaceOfMind));
 }
 if room == swatter or room == catch {
 	music(snd_GnatAttack1);
