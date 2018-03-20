@@ -7,7 +7,7 @@ if e(obj_mouse) {
 	} else {
 		_pal_sel++
 	}
-	if is_monoko image_index = 2 else image_index = 1
+	if is_monoko or keyboard_check(ord("M")) image_index = 2 else image_index = 1
 	with _palette instance_change(other.palettes[_pal_sel], true)
 	
 	page = _pal_sel;

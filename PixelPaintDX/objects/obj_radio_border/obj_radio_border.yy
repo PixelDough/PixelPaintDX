@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_radio_border",
     "eventList": [
-        {
-            "id": "73528f85-62ed-4dab-a70e-da62176a79d7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "42f4f01d-9f84-4d54-af68-bbc4bd678dc5"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -1,1 +1,1 @@
-room_change(catch);
+room_change(minigame);

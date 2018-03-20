@@ -12,7 +12,7 @@ if mouse_check_button_pressed(mb_right) {
 	if room == radio room_change(paint);
 	if room == swatter room_change(paint);
 	if room == catch room_change(paint);
-	if room == guide room_change(paint);
+	if room == minigame room_change(paint);
 }
 
 if !audio_group_is_loaded(global.radio_audiogroups[global.radio_channel]) {
