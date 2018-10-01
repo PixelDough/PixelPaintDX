@@ -9,7 +9,8 @@
         "0e543349-89ff-47d1-9a77-693bf568b364",
         "f107fd14-687a-4042-9455-4d546942f67f",
         "79b4b729-b639-4eb7-9670-ca0eaa5c5a16",
-        "b930689e-6e80-4424-bd19-e0bb8eff5e5c"
+        "b930689e-6e80-4424-bd19-e0bb8eff5e5c",
+        "ac0a0400-bf9f-46b8-be78-2c7d6f277377"
     ],
     "filterType": "GMSprite",
     "folderName": "PaintPalette",
