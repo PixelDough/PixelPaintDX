@@ -8,8 +8,7 @@ global.canvas = surface_create(camera_get_view_width(view_camera[0]), camera_get
 global.canvas_last = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0])) //surface_create(392, 176);
 new_canvas(global.canvas);
 new_canvas(global.canvas_last);
+global.canvas_sprite = noone;
 
-global.radio_channel = radio_channels.lounge
 global.song = noone
 
-global.radio_audiogroups = [audiogroup_music_classical, audiogroup_music_electronic, audiogroup_music_happy, audiogroup_music_lounge, audiogroup_music_relaxing, audiogroup_music_disco]
