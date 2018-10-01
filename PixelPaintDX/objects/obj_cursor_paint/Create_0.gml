@@ -18,8 +18,11 @@ enum tool {
 	spray,
 	eraser,
 	zoom,
-	pixel
+	pixel,
+	sticker
 }
+
+current_sticker = 0;
 
 drawing = false;
 

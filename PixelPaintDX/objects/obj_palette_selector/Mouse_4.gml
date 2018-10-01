@@ -8,7 +8,12 @@ if e(obj_mouse) {
 		_pal_sel++
 	}
 	if is_monoko or keyboard_check(ord("M")) image_index = 2 else image_index = 1
-	with _palette instance_change(other.palettes[_pal_sel], true)
+	with _palette {
+		if obj_cursor_paint.ACTION == tool.sticker
+			instance_change(obj_palette_stickers, true);
+		else
+			instance_change(other.palettes[_pal_sel], true)
+	}
 	
 	page = _pal_sel;
 	

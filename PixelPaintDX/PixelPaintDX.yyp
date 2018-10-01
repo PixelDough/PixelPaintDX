@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "08ad73ba-4727-489e-82ab-d4691b13ca35",
+            "Value": {
+                "id": "2bce66fd-e3df-421d-adc4-7b9b7c35b745",
+                "resourcePath": "objects\\obj_toolbox_sticker\\obj_toolbox_sticker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09fec5f9-cd71-4f80-915a-fcfc5b6de070",
             "Value": {
                 "id": "3b15f6ec-56bb-4682-89f4-2d410989199b",
@@ -212,6 +220,14 @@
                 "id": "c140c49e-f941-40d2-a881-d0ae7d2ad1a9",
                 "resourcePath": "rooms\\catch\\catch.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2d415bca-b22e-46dd-a144-d7bbf108b28c",
+            "Value": {
+                "id": "9cbcce7c-bb06-428e-81dc-798c825462f9",
+                "resourcePath": "objects\\obj_palette_stickers\\obj_palette_stickers.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -988,6 +1004,14 @@
                 "id": "623da58a-4c82-46e5-9b92-7122cf326756",
                 "resourcePath": "objects\\obj_palette_random\\obj_palette_random.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b930689e-6e80-4424-bd19-e0bb8eff5e5c",
+            "Value": {
+                "id": "c573a00e-a1cf-4c07-ab2f-f467ffa5bdbf",
+                "resourcePath": "sprites\\spr_stickers_icons\\spr_stickers_icons.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -6,3 +6,6 @@ if ACTION == tool.pixel and place_meeting(mouse_x, mouse_y, obj_canvas) {
 	draw_sprite(spr_pixel_cursor, 0, snap_x, snap_y)
 }
 draw_self();
+if ACTION == tool.sticker and place_meeting(mouse_x, mouse_y, obj_canvas) {
+	draw_sprite(spr_stickers, current_sticker, mouse_x, mouse_y)
+}
