@@ -8,7 +8,8 @@
         "5e72d8d8-5fd0-45e8-afa4-820a7129eed5",
         "afb01b67-4031-4961-b585-a5cac664a295",
         "81a64087-bada-4584-b20a-3e280778faa7",
-        "e6763c7e-8afd-4148-9287-17c92e15b61a"
+        "e6763c7e-8afd-4148-9287-17c92e15b61a",
+        "a13d9ae5-5f0b-42b0-bb89-09be73026a07"
     ],
     "filterType": "GMSprite",
     "folderName": "Paint",

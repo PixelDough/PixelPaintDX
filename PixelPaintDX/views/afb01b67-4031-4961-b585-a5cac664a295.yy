@@ -20,7 +20,8 @@
         "52705475-9d45-4dc1-bcb8-56528272d82e",
         "4d1aa409-facd-4012-8b17-730589b1e77e",
         "9d399da4-14a0-4f34-aa58-69ac95e30a23",
-        "604c0085-358c-4ed5-9cf6-c36fceb82074"
+        "604c0085-358c-4ed5-9cf6-c36fceb82074",
+        "cd822540-ecc8-4bb2-b0d3-430b431c77bd"
     ],
     "filterType": "GMSprite",
     "folderName": "PaintToolbox",

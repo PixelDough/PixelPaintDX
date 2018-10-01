@@ -1,1 +1,1 @@
-open = !open;
+event_user(0)
