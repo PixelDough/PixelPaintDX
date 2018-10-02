@@ -4,7 +4,7 @@ if mouse_check_button_pressed(mb_left) {
 		surface_set_target(global.canvas);
 		draw_set_color(brush_color);
 		draw_point(mouse_x, mouse_y);
-		draw_line_width(x_last, y_last, x, y, 1)
+		draw_line_width(xprevious, yprevious, x, y, 1)
 		surface_reset_target();
 	} else {
 		zoomed = true;

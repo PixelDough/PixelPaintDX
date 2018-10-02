@@ -4,12 +4,11 @@
     "id": "a1eb479c-3860-4dd7-a457-2626d036f27e",
     "creationCodeFile": "",
     "inheritCode": true,
-    "inheritCreationOrder": true,
+    "inheritCreationOrder": false,
     "inheritLayers": true,
     "instanceCreationOrderIDs": [
         "ba01a404-f90a-4c73-b9e2-0c429e870095",
         "ecbaddf2-deb7-410c-8c32-43ea6d52f70b",
-        "39cf2ab9-2786-4bd8-a753-a5c6a5c4ffa1",
         "8daef4c2-8ec6-4f15-9213-16bc02c158c7",
         "3718cf2a-acb2-42a8-a71e-f45118182cf4",
         "5a66a624-d925-42dc-9bbe-8bfcb620b8ef",
@@ -29,7 +28,8 @@
         "66f48cf8-b9bf-4b9a-81f2-55383971b052",
         "61e8992f-bf6f-4297-9016-c612a52b5e52",
         "569e5b42-afae-4e0e-9c1d-c75cd974cb86",
-        "6a916879-f7cb-4240-b703-d545ef1d6349"
+        "6a916879-f7cb-4240-b703-d545ef1d6349",
+        "db08c1f9-f461-487f-903c-8f895c4f8e3a"
     ],
     "IsDnD": false,
     "layers": [
@@ -47,7 +47,6 @@
             "inheritSubLayers": true,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_45970A0E","id": "39cf2ab9-2786-4bd8-a753-a5c6a5c4ffa1","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": true,"inheritItemSettings": true,"IsDnD": false,"m_originalParentID": "8f7f3aef-c2b3-4c33-9801-066c092a009e","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_45970A0E","objId": "cdcdf574-2c23-435b-82fd-f04fe760bdf0","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 16,"y": 0},
 {"name": "inst_53BC3D85","id": "8daef4c2-8ec6-4f15-9213-16bc02c158c7","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": true,"inheritItemSettings": true,"IsDnD": false,"m_originalParentID": "d8ee50d1-6535-4440-991e-1caab63f664d","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_53BC3D85","objId": "6919240b-2ce2-46f4-9f77-ce316049f15c","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
             ],
             "layers": [
@@ -182,13 +181,39 @@
             "visible": true
         },
         {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "BackgroundObjects",
+            "id": "091eb5f3-c1bf-4d16-9839-6fd3022024be",
+            "depth": 500,
+            "grid_x": 8,
+            "grid_y": 8,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": true,
+            "inheritLayerSettings": true,
+            "inheritSubLayers": true,
+            "inheritVisibility": true,
+            "instances": [
+{"name": "inst_4FE451B","id": "db08c1f9-f461-487f-903c-8f895c4f8e3a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4FE451B","objId": "3a6de228-d215-4d59-a026-2ba1ae9525b6","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -24,"y": -24}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "5fbcb01c-8600-48aa-bf3f-9e50fa0083f3",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "51ce28b3-9c4d-45a4-81f7-e46432873e1a",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4294967295 },
-            "depth": 500,
+            "colour": { "Value": 4278190080 },
+            "depth": 600,
             "grid_x": 8,
             "grid_y": 8,
             "hierarchyFrozen": false,
@@ -196,7 +221,7 @@
             "hspeed": 0,
             "htiled": false,
             "inheritLayerDepth": true,
-            "inheritLayerSettings": true,
+            "inheritLayerSettings": false,
             "inheritSubLayers": true,
             "inheritVisibility": true,
             "layers": [

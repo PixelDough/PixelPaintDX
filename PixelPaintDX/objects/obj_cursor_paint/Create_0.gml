@@ -26,4 +26,6 @@ current_sticker = 0;
 
 drawing = false;
 
+eraser_selected = false;
+
 ACTION = tool.small;

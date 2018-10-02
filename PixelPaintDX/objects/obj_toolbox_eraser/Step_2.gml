@@ -1,0 +1,1 @@
+if obj_cursor_paint.ACTION != pen_tool obj_cursor_paint.eraser_selected = false;

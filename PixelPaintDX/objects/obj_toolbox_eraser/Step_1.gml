@@ -1,0 +1,1 @@
+pen_tool = obj_cursor_paint.ACTION;

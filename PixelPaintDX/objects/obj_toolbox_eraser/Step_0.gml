@@ -1,1 +1,1 @@
-image_index = (obj_cursor_paint.ACTION == tool.eraser);
+image_index = (obj_cursor_paint.eraser_selected);

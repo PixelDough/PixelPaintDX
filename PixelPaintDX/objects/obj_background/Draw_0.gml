@@ -1,0 +1,1 @@
+draw_sprite_tiled(spr_background, 0, 0, 0)

@@ -9,14 +9,6 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "ac1bce7b-3db4-45a7-b55c-1384a4ad3257",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "66e3c85a-910c-4a59-9a96-f572c554c8fe",
-            "propertyId": "be7dd874-fe03-4c55-80f6-0ebc0bb56ac6",
-            "value": "radio_channels.classical"
-        },
-        {
             "id": "4b9bd31c-3462-4628-b6c4-129c78bd00c2",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
